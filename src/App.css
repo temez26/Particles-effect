@@ -11,7 +11,16 @@
 .option-button:hover {
     border-color: grey;
     box-shadow: 0 0 10px rgba(0, 168, 3, 0.5); /* Add a subtle shadow */
+    opacity:1;
+    color:white;
     
+}
+
+.dice {
+    
+    
+    height:20px;
+    color: rgb(252, 189, 54);
 }
 
 /* Custom styles for correct and wrong answers */

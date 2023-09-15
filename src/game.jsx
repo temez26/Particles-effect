@@ -93,14 +93,14 @@ function Game() {
     return (
         <div className="d-flex align-items-center justify-content-center vh-100">
         <div className="container mb-5 ">
-            <div className="text-center text-white">
+                <div className="text-center text-white ">
                 
 
-                <h1 className="mt-4">
-                    <FontAwesomeIcon icon={faWandMagicSparkles} /> Random Trivia Question
+                <h1 className="head mt-4 pb-1">
+                        <FontAwesomeIcon icon={faWandMagicSparkles} style={{ color: "#FDBD36" }} /> Random Trivia Question
                 </h1>
 
-                <div className="question mt-4">
+                    <div className="question mt-4">
                     <p dangerouslySetInnerHTML={{ __html: question }}></p>
                 </div>
 
@@ -125,7 +125,7 @@ function Game() {
                         <p>{congratulations}</p>
                     </div>
 
-                    <div className="points mt-4">
+                    <div className="points mt-4 ">
                         <p>
                             Correct: {correctCount}{' '}
                             <FontAwesomeIcon icon={faCheck} style={{ color: "#00a803" }} />
@@ -143,11 +143,11 @@ function Game() {
                         </button>
                     </div>
 
-                    <button onClick={resetGame} className="reset btn btn-danger mt-4">
-                        <FontAwesomeIcon icon={faDiceSix} className="dice mr-2" /> Reset Game
+                    <button onClick={resetGame} className="reset btn btn-danger mt-4 pb-2 pt-2">
+                        <FontAwesomeIcon icon={faDiceSix} className="dice " bounce /> Reset Game
                     </button>
 
-                    <div className="icon mt-4">
+                    <div className="row align-items-center justify-content-center icon mt-4">
                         <FontAwesomeIcon icon={faCoffee} />
                     </div>
                 </div>

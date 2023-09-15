@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\temek\\Source\\Repos\\Particles-effect",
+  "SelectedNode": "\\src\\particles-config.js",
   "PreviewInSolutionExplorer": false
 }
