@@ -1,16 +1,29 @@
-
-
-
-
-
-.App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.btn{
+    color:white;
    
-    background-position: center;
-    background-color: #000000;
-   
+    
 }
+.option-button {
+    opacity:0.9;
+    margin:4px;
+}
+/* Custom hover effect for the buttons */
+.option-button:hover {
+    border-color: grey;
+    box-shadow: 0 0 10px rgba(0, 168, 3, 0.5); /* Add a subtle shadow */
+    
+}
+
+/* Custom styles for correct and wrong answers */
+.btn-correct {
+    background-color: #00a803; /* Green background for correct answer */
+    border-color: #00a803; /* Green border for correct answer */
+    color: #fff; /* White text for correct answer */
+}
+
+.btn-wrong {
+    background-color: #cc0000; /* Red background for wrong answer */
+    border-color: #cc0000; /* Red border for wrong answer */
+    color: #fff; /* White text for wrong answer */
+}
+
