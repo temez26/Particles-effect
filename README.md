@@ -1,8 +1,12 @@
-# React + Vite
+# React Trivia Game with particles background
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React trivia game that fetches random trivia questions from the [Open Trivia Database](https://opentdb.com/). The game allows you to answer questions and keeps track of your score.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches random trivia questions.
+- Keeps track of correct and incorrect answers.
+- Allows you to reset the game and start over.
+
+
+
